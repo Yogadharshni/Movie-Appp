@@ -1,0 +1,26 @@
+.box{
+  height: 160px;
+  width: 160px;
+  border: 2px solid black;
+  font-size: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.box:hover {
+  background: hsl(0deg 0% 0%/6%);
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: min-content;
+  margin: 25px auto;
+}
+.Tic-Tac{
+  text-align: center;
+}
+.title{
+ font-size: xx-large;
+  font-weight: bolder;
+}
