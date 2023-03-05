@@ -24,3 +24,93 @@
  font-size: xx-large;
   font-weight: bolder;
 }
+
+/* for color game */
+input{
+  height:25px;
+    width:250px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+    
+}
+button{
+  height: 28px;
+}
+/* .App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.not-found{
+  width: 100%;
+  object-fit: cover;
+  max-width:1000px;
+}
+
+/* for movie */
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+} 
+.Movie{
+  width: 340px;
+  height: min-content;
+}
+.poster{
+  margin-top: 0px;
+  height: 640px;
+  width: 340px;
+  object-fit: cover;
+}
+.sub-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mname{
+  margin-bottom: 0px;
+}
+.mrating{
+  margin-bottom: 0px;
+}
+.movielist{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+  /* display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)) ; */
+
+}
+.like-dislike{
+  margin: 15px;
+  gap: 10px;
+}
+.like{
+  font-size: 20px;
+}
+
+.dislike{
+  font-size: 20px;
+}
+
+.add-movie-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 10px;
+  margin: 10px auto;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+}
+.Movie-popout{
+   max-width: 750px;
+}
+body{
+  margin: 0;
+}

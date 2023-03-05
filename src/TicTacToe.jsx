@@ -5,6 +5,7 @@ import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
 
+
 export function TicTacToe() {
  const [arr,setArr]=useState(Array(9).fill(null)) 
  const[isTurn,setisTurn]=useState(true) //for changing the value as alternative value as => X or O
