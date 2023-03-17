@@ -2,13 +2,14 @@ import { useParams, useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import { useState , useEffect} from "react";
+import { API } from "./global";
 
 export function MovieDetails() {
   const { num } = useParams();
 
   const [datas, setDatas] = useState({})
   useEffect(()=>{
-    fetch(`https://640055b59f844910298e4cd4.mockapi.io/movies/${num}`)
+    fetch(`${API}/movies/${num}`)
     .then((data)=>data.json())
     .then((mv)=>setDatas(mv))
   }, []);

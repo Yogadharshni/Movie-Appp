@@ -1,4 +1,4 @@
-import reactLogo from './assets/react.svg'
+
 import './App.css'
 import { TicTacToe } from './TicTacToe'
 import { Routes, Route, Link, useNavigate, Navigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import { Movielist } from "./Movielist";
 import { useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
+
 import Toolbar from '@mui/material/Toolbar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
