@@ -209,8 +209,8 @@ const [data, setData] = useState([])
           <Button onClick={()=>navigate("/")} color="inherit">Home Page</Button>
           <Button onClick={()=>navigate("/Movielist")}  color="inherit">Movies</Button>
           <Button onClick={()=>navigate("/Movielist/add")}  color="inherit">Add Movie</Button>
-          <Button onClick={()=>navigate("/TicTacToe")}  color="inherit">Tic Tac Toe Game</Button>
-          <Button onClick={()=>navigate("/Input")}  color="inherit">Color Game</Button>
+          {/* <Button onClick={()=>navigate("/TicTacToe")}  color="inherit">Tic Tac Toe Game</Button>
+          <Button onClick={()=>navigate("/Input")}  color="inherit">Color Game</Button> */}
           <Button sx={{marginLeft:'auto'}}
            onClick={()=>setMode(mode=='dark'?'light':'dark')} 
            startIcon={mode=='dark' ? <Brightness7Icon /> : <Brightness4Icon />}
@@ -222,9 +222,9 @@ const [data, setData] = useState([])
       </AppBar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="TicTacToe" element={<TicTacToe />} />
+        {/* <Route path="TicTacToe" element={<TicTacToe />} /> */}
         <Route path="/Movielist/add" element={<AddMovieField/>} />
-        <Route path="/Input" element={<Input/>} />
+        {/* <Route path="/Input" element={<Input/>} /> */}
         <Route path="/flims" element={<Navigate replace to="/Movielist"/>} />  {/* if old link is modified then we can redirect using this */}
         <Route path="/Movielist" element={<Movielist />} />   {/* lifting the sate up => moving to parent and getting props from it */}
         <Route path="/Movielist/:num" element={<MovieDetails/>} />   {/* lifting the sate up => moving to parent and getting props from it */}

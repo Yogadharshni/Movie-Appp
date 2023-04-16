@@ -20,7 +20,7 @@ export function Movielist() {
 
  
   const DeleteMovie=async(id)=>{
-     console.log('deletinggg',id)
+    //  console.log('deletinggg',id)
     //  using .then
     //  fetch(`${API}/movies/${id}`,{
     //  method: 'DELETE',
