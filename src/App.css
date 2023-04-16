@@ -111,3 +111,10 @@ button {
 body {
   margin: 0;
 }
+
+.homee{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}

@@ -206,7 +206,7 @@ const [data, setData] = useState([])
       
       <AppBar position="static">
         <Toolbar>
-          <Button onClick={()=>navigate("/")} color="inherit">Home Page</Button>
+          <Button onClick={()=>navigate("/")} color="inherit">Home</Button>
           <Button onClick={()=>navigate("/Movielist")}  color="inherit">Movies</Button>
           <Button onClick={()=>navigate("/Movielist/add")}  color="inherit">Add Movie</Button>
           {/* <Button onClick={()=>navigate("/TicTacToe")}  color="inherit">Tic Tac Toe Game</Button>
